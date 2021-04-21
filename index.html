@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/semantic.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Vanilla</title>
+</head>
+
+<body>
+    <div class="ui container">
+        <header>
+            <p class="ui block header">Répertoire de contact</p>
+        </header>
+        <div class="repertoire">
+            <div class="formulaire commun">
+                <header>
+                    <p class="ui block header">Formulaire de contact</p>
+                </header>
+                <form class="ui form">
+                    <div class="field">
+                        <label for="prenom">Prénom</label>
+                        <input id="prenom" type="text" name="first-name" placeholder="Votre prénom" required>
+                    </div>
+                    <div class="field">
+                        <label for="nom">Nom</label>
+                        <input id="nom" type="text" name="last-name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="field">
+                        <label for="groupe">Groupe</label>
+                        <select id="groupe" class="ui search dropdown" required>
+                            <option value="" hidden></option>
+                            <option value="Groupe 1">Groupe 1</option>
+                            <option value="Groupe 2">Groupe 2</option>
+                            <option value="Groupe 3">Groupe 3</option>
+                            <option value="Groupe 4">Groupe 4</option>
+                            <option value="Groupe 5">Groupe 5</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="bio">Biographie</label>
+                        <textarea id="bio" rows="3" placeholder="Votre biographie" required></textarea>
+                    </div>
+                    <div class="image">
+                        <div>
+                            <input type="file" name="fileUpload" id="choixImg">
+                        </div>
+                        <div id="choix">
+                            <img src="" id="myImg">
+                        </div>
+                    </div>
+                </form>
+                <button id="creer" class="ui button blue btn-commun">Créer</button>
+                <button id="reinit" class="ui button red btn-commun">Réinit</button>
+
+            </div>
+            <div class="contact commun">
+                <header>
+                    <p class="ui block header">Liste contact</p>
+                </header>
+                <!-- <div class="card">
+                    <!-- <div class="img">
+                        <img class="ui medium circular image" src="https://ca.slack-edge.com/T01JC3UUGCC-U01JJHLV525-ff9d26f62a64-512">
+                    </div>
+                    <div class="text">
+                        <div class="p">
+                            <p><span id="text-prenom">Prénom</span> &nbsp;<span id="text-nom">Nom</span></p>
+                            <p class="stop">X</p>
+                        </div>
+                        <p id="text-groupe">Groupe</p>
+                        <p id="text-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sequi, odit atque dolorem delectus repellat quisquam enim excepturi est perspiciatis! Est eveniet inventore atque excepturi animi reiciendis fuga delectus repellat!</p>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/vanilla.js"></script>
+</body>
+
+</html>

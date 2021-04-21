@@ -1,0 +1,152 @@
+.container {
+    width: 60% !important;
+    height: 620px !important;
+    background-color: #E5E5E5 !important;
+    margin-bottom: 6%;
+}
+
+header {
+    margin-top: 2%;
+}
+
+header p {
+    color: white !important;
+    font-size: 20px !important;
+    background-color: #2F80ED !important;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.repertoire {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formulaire {
+    width: 39% !important;
+}
+
+.contact {
+    width: 49% !important;
+    overflow: auto;
+}
+
+.commun {
+    margin-top: 2%;
+    height: 550px !important;
+    background-color: #F7F7F7;
+    margin-bottom: 3%;
+}
+
+.commun header {
+    margin-top: -1%;
+}
+
+.p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stop {
+    font-weight: bold;
+    width: 10%;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+}
+
+form {
+    padding: 4%;
+}
+
+.btn-commun {
+    width: 45%;
+    position: relative;
+    left: 4%;
+}
+
+label {
+    color: #2F80ED !important;
+}
+
+
+/*card*/
+
+.card {
+    display: flex;
+    padding: 2%;
+    border: 1px solid #0f3b75a9;
+    margin: 2%;
+    background-color: #2f81ed70;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.text {
+    padding-left: 2%;
+    font-weight: bold;
+    text-align: justify;
+    width: 200px;
+}
+
+.text p {
+    margin-bottom: 1%;
+}
+
+.para1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.supprimer {
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    position: relative;
+    left: 4vw;
+}
+
+#text-bio {
+    width: 250px;
+}
+
+#text-bio {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#bio {
+    resize: none;
+}
+
+.circular {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.image div:nth-child(2) {
+    width: 100px !important;
+    height: 90px !important;
+    border: 1px solid black;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image input {
+    width: 140px !important;
+}
+
+#myImg {
+    width: 100px !important;
+    height: 90px !important;
+}
